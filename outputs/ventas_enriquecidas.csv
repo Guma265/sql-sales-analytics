@@ -1,0 +1,6 @@
+id_venta,id_cliente,id_producto,fecha,cliente,ciudad,producto,precio,mes
+1,1,1,2024-01-10,Ana,CDMX,Laptop,15000,2024-01
+2,1,2,2024-01-11,Ana,CDMX,Mouse,500,2024-01
+3,2,2,2024-01-12,Luis,Guadalajara,Mouse,500,2024-01
+4,2,3,2024-02-01,Luis,Guadalajara,Teclado,900,2024-02
+5,3,2,2024-02-05,Marta,Monterrey,Mouse,500,2024-02
