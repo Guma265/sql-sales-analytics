@@ -28,3 +28,39 @@ Tablas:
 ## Notas
 - SQLite se usa para mantener el proyecto simple y reproducible.
 - Las consultas usan buenas prácticas: alias claros, GROUP BY con IDs y window functions.
+
+## Como correr el ETL
+
+Requisitos:
+- Python 3.10+
+- pandas
+
+Instalación:
+```bash
+pip install -r requirements.txt
+python python/02_etl_and_reports.py
+
+Salidas:
+outputs/ventas_enriquecidas.csv
+outputs/ingresos_por_producto.csv
+outputs/ventas_por_cliente_mes.csv
+outputs/ranking_clientes.csv
+
+---
+
+##  `.gitignore`
+Crea `.gitignore` en la raíz:
+
+Salidas:
+outputs/ventas_enriquecidas.csv
+outputs/ingresos_por_producto.csv
+outputs/ventas_por_cliente_mes.csv
+outputs/ranking_clientes.csv
+
+---
+
+## 4️ `.gitignore`
+Crea `.gitignore` en la raíz:
+
+
+
